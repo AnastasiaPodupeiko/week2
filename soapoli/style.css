@@ -6,7 +6,7 @@ body {
   font-size: 30px;
   width: 640px;
 }
-.main:after {
+.main-content:after {
   visibility: hidden;
   display: block;
   font-size: 0;
@@ -14,14 +14,14 @@ body {
   clear: both;
   height: 0;
 }
-.main {
+.main-content {
   display: inline-block;
 }
 /* start commented backslash hack \*/
-* html .main {
+* html .main-content {
   height: 1%;
 }
-.main {
+.main-content {
   display: block;
 }
 /* close commented backslash hack */
